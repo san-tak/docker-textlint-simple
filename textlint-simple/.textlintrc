@@ -1,0 +1,10 @@
+{
+    "rules": {
+        "preset-japanese": true,
+        "prh": {
+            "rulePaths": [
+                "./sample.yml"
+            ]
+        }
+    }
+}

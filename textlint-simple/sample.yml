@@ -1,0 +1,16 @@
+# Rules for Sample
+meta:
+  reviewer:
+  related:
+    - https://github.com/textlint/textlint
+    - https://github.com/textlint-rule/textlint-rule-prh
+    - https://github.com/textlint-ja
+  rules:   https://github.com/prh/rules
+
+version: 1
+
+rules:
+  - expected: ください
+    pattern: 下さい
+  - expected: すべて
+    pattern: 全て
