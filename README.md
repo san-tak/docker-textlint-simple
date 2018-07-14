@@ -25,7 +25,7 @@ $ git clone https://github.com/san-tak/docker-textlint-simple.git
 $ vi .textlintrc
 ```
 
-Dockerホストマシンのカレントディレクトリ`.textlintrc` の `rulePaths` へprh でチェックを行いたいルールを奇術してください。
+Dockerホストマシンのカレントディレクトリ`.textlintrc` の `rulePaths` へprh でチェックを行いたいルールを記述してください。
 ~~~
 {
     "rules": {
