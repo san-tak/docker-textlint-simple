@@ -52,6 +52,12 @@ $ git clone https://github.com/prh/prh.git
 $ docker run -it --rm -v $PWD:/work santak/textlint-simple --rule prh README.md
 ```
 
+* for SELinux
+
+```sh
+$ docker run -it --rm -v $PWD:/work:Z santak/textlint-simple --rule prh README.md
+```
+
 ### build したい場合
 
 ```sh
